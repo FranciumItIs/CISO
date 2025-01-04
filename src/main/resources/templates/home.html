@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CISO - Car Information System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+	<link rel="stylesheet" th:href="@{/css/fonts.css}">
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="bg-gray-900 text-white roboto-thin">
+    <nav th:replace="fragments/nav :: nav"></nav>
+    <div class="h-screen flex flex-col justify-center items-center overflow-hidden">
+		<div class="absolute inset-0 w-full h-full overflow-hidden bg-cover bg-center"
+             style="background-image: url('/images/car-hero.png');">
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+        </div>
+        <div class="relative z-10 text-center noselect">
+            <h1 class="text-5xl mb-4">Car Information System Organization</h1>
+            <p class="text-lg mb-6">Experience Simplicity And Power</p>
+			<div class="form-container">
+            	<h2 th:title="${pageTitle}"></h2>
+        	</div>
+        </div>
+		
+    </div>
+ <script th:src="@{/js/home.js}"></script>
+</body>
+</html>

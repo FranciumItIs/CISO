@@ -1,0 +1,49 @@
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*<uniquifier>: Use a unique and descriptive class name*/
+/*<weight>: Use a value from 100 to 900*/
+
+.overpass-o {
+  font-family: "Overpass", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*<uniquifier>: Use a unique and descriptive class name*/
+/*<weight>: Use a value from 100 to 900*/
+
+.montserrat-underline-underlineplus {
+  font-family: "Montserrat Underline", serif;
+  font-optical-sizing: auto;
+  font-weight: 240;
+  font-style: normal;
+}
+
+.tiny5-regular {
+  font-family: "Tiny5", serif;
+  font-weight: 400;
+  font-style: normal;
+}
